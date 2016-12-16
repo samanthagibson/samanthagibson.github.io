@@ -1,0 +1,83 @@
+img{
+    max-width: 100%;
+}
+nav {
+    background-color: transparent;
+    font-size: 150%;
+    line-height:3em;
+    color:black;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+            a:link {
+                color: lightblue;
+            }
+            
+            a:visited {
+                color: black;
+            }
+            
+            a:hover {
+                color: black;
+            }
+            
+            a:active {
+                color: lightblue;
+            }
+
+nav a{
+    flex: 1 0 7em;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Petit Formal Script', cursive;
+}
+
+p{
+    font-size:18pt;
+    font-family: 'Petit Formal Script', cursive;
+}
+.leftcol, 
+.rightcol {
+  width: 48%;
+  flex: 1 0 1em;
+    margin: .5em;
+ }
+
+ 
+#Top2, 
+#Middle, 
+#Bottom, 
+#Bottom2 {
+    display: flex;
+    align-items:center; 
+    flex-flow: row wrap;
+    
+}
+
+section{
+    background-color: white;
+    padding: 1.5em;
+}
+
+.content {
+    position: relative;
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
+}
+
+body {
+    background-image: url("Brick-Wall-Background.jpg");
+}
+footer {
+    text-align: center;
+}

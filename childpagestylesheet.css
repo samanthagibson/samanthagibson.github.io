@@ -1,0 +1,29 @@
+.headerContent{
+    
+width 1024px;
+    height: ;
+    margin: 0 auto;
+    background: red;
+}
+
+#section1, #section2 {
+    display:flex;
+    flex-flow: row wrap;
+    background-color: white;
+    width:82%;
+}
+.leftcol {
+  width: 48%;
+  flex: 1 0 15em;
+ }
+.rightcol {
+  width: 48%;
+  flex: 1 0 15em;
+}       
+    
+
+body{
+    background-image: url(Brick-Wall-Background.jpg);   
+
+}
+

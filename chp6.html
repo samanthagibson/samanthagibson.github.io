@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+    <title> Weather Footwear</title>
+
+<script>
+function myFunction(){
+var weather;
+var message; 
+
+if(weather=hot) {
+message= "sandals";
+}
+    
+else if(weather=rain){
+message= "galoshes";
+}
+    
+else if(weather=snow){
+message= "boots";
+}
+
+else{
+    message= "shoes";
+}
+    
+//Display the ansewer
+document.getElementById("weather").innerHTML=message;
+}
+
+</script>
+</head>
+<body>
+    <h1>What footwear for this weather?</h1>
+    
+    <p>
+    Weather Type:
+    <input type="text" id="demo" size="10">
+    <button onclick="myFunction()">Shoes</button>
+    </p>
+    
+    <p id="demo"></p>
+    
+</body>
+    
+</html>
